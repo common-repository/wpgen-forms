@@ -1,0 +1,20 @@
+{
+    "name": "eight-one-labs/wpgen-forms",
+    "description": "Generate WordPress forms with the help of AI",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "WPGenForms\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sekar",
+            "email": "gnanasekaran.srgm@gmail.com"
+        }
+    ],
+    "require": {}
+}
